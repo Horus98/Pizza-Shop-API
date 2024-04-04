@@ -14,5 +14,5 @@ public class DiscountCalculator {
     public boolean isDiscountApplicable() {
         return detailsDtoList.stream().mapToInt(DetailsDto::amount).sum() >= 3;
     }
-    
+
 }
