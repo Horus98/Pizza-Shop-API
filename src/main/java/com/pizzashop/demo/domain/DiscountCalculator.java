@@ -14,11 +14,5 @@ public class DiscountCalculator {
     public boolean isDiscountApplicable() {
         return detailsDtoList.stream().mapToInt(DetailsDto::amount).sum() >= 3;
     }
-
-    public float getTotalCost() {
-
-
-        return 0f;
-
-    }
+    
 }
